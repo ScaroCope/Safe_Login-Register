@@ -6,7 +6,7 @@ $messaggio->Host='smtp.gmail.com';
 $messaggio->SMTPAuth = true;
 $messaggio->Username = 'mvaccari05@gmail.com';
 $messaggio->Password = 'mattiavaccari';
-$messaggio->SMTPSecure = 'ssl';
+$messaggio->SMTPSecure = 'tls';
 $messaggio->Port = 465;
 $messaggio->setFrom('mvaccari05@gmail.com');
 $messaggio->addAddress($email);

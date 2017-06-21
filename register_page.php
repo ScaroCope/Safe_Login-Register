@@ -7,7 +7,6 @@
 	if (isset($_POST['submit'])){
 	
 	$password = trim ($_POST['password']);
-	$password2 = trim ($_POST['password2']);
 	$email = trim ($_POST['email']);
 	$username = trim ($_POST['username']);
 
